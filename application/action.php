@@ -1,4 +1,9 @@
-<?php 
+<?php
+    /**
+     *	Author	  :  Shuvankar Paul
+     *	Email     :  shuvoenr@gmail.com
+     *	Website :  https://www.equaltrue.com
+     */
 
 	$jsonString = file_get_contents('application.json');
 	$data = json_decode($jsonString, true);

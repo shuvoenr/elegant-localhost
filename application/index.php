@@ -1,4 +1,9 @@
-<?php 
+<?php
+    /**
+     *	Author	  :  Shuvankar Paul
+     *	Email     :  shuvoenr@gmail.com
+     *	Website :  https://www.equaltrue.com
+     */
 
 	$jsonString = file_get_contents('application.json');
 	$data = json_decode($jsonString, true);
@@ -424,9 +429,11 @@
 					.text("Link Does't Empty");
 					return false;
 			}else if(!urlexp.test(add_link)){
+					/*
 					jQuery('#add_link-warning').addClass('alert-danger display').removeClass('no-display')
 					.text("Enter Valid Link.(http with www link) Ex: http://127.0.0.1/equaltrue/server/windows-linux-path-convert/");
 					return false;
+					*/
 			}else{
 					jQuery('#add_link-warning').addClass('no-display').removeClass('display');
 			}
