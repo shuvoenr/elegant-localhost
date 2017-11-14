@@ -1,3 +1,10 @@
+<?php
+    /**
+     *	Author	  :  Shuvankar Paul
+     *	Email     :  shuvoenr@gmail.com
+     *	Website :  https://www.equaltrue.com
+     */
+?>
 <!DOCTYPE html>
 <html>
 <head>
