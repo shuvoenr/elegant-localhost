@@ -1,4 +1,4 @@
-# elegant-localhost
+# Elegent Localhost
 Wamp or Xamp Localhost With Beautiful Theme.
 
 # Whay you will use it:
